@@ -6,7 +6,7 @@
 function addNewItem () {
   $('#js-shopping-list-form').submit(event => {
     event.preventDefault();
-    let additionalItem = $("#shopping-list-entry").val();
+    let additionalItem = $('#shopping-list-entry').val();
 
     let newLi = `<li><span class="shopping-item">${additionalItem}</span>
         <div class="shopping-item-controls">
